@@ -1,3 +1,3 @@
-FROM microsoft/aspnet:4.7
-ADD . /inetpub/wwwroot
-VOLUME ["/packages"]
+FROM schmidt4brains/mono-xsp
+ADD . /var/www
+VOLUME ["/var/www/Packages"]
