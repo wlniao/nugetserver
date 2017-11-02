@@ -1,3 +1,3 @@
-FROM wlniao/monoweb:v4.16.3
-COPY ./ /var/www
-VOLUME ["/var/www/Packages"]
+FROM microsoft/aspnet:4.7
+ADD . /inetpub/wwwroot
+VOLUME ["/packages"]
